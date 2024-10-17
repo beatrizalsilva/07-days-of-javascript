@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 2 - Variáveis</title>
+
+    <script>
+        const nome = prompt("Qual é o seu nome, jovem Padawan?");
+        const idade = prompt("Quantos ciclos galácticos você completou?");
+        const linguagem = prompt("Qual linguagem de programação está dominando com a Força?");
+
+        alert(`Saudações, ${nome}! Com ${idade} ciclos, você já trilha o caminho da Força em ${linguagem}!`);
+
+        // desafio extra
+        const pergunta = `O estudo da ${linguagem} está fluindo como a Força em você? 1 para Sim e 2 para Não.`;
+        const resposta = prompt(pergunta);
+
+        if (resposta == 1) {
+            alert("Excelente, jovem Padawan! Que a Força continue te guiando para o sucesso!");
+        } else {
+            alert("Não desista, há muitos caminhos na galáxia. Talvez outras linguagens esperem por você!");
+        }
+    </script>
+</head>
+<body>
+    <h1>7 Days of JavaScript</h1>
+    <h2>Desafio 2 - Variáveis</h2>
+</body>
+</html>
