@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 3 - Fluxo de decisão</title>
+
+    <script>
+        alert("Bem-vindo ao Jogo das Escolhas na Programação!");
+
+        // Início da jornada em programação
+        let inicio;
+        while (inicio !== '1' && inicio !== '2') {
+            inicio = prompt("No início de seus estudos, você pode escolher: \n1. Front-end \n2. Back-end");
+
+            if (inicio === '1') {
+                alert("Você escolheu Front-end!");
+                // Escolha do framework para Front-end
+                let framework;
+                while (framework !== '1' && framework !== '2') {
+                    framework = prompt("Você escolheu Front-end! Agora, escolha o framework: \n1. React \n2. Vue");
+
+                    if (framework === '1') {
+                        alert("Você escolheu aprender React!");
+                    } else if (framework === '2') {
+                        alert("Você escolheu aprender Vue!");
+                    } else {
+                        alert("Opção inválida. Por favor, escolha 1 ou 2.");
+                    }
+                }
+            } else if (inicio === '2') {
+                alert("Você escolheu Back-end!");
+                // Escolha da linguagem para Back-end
+                let linguagem;
+                while (linguagem !== '1' && linguagem !== '2') {
+                    linguagem = prompt("Você escolheu Back-end! Agora, escolha a linguagem: \n1. C# \n2. Java");
+
+                    if (linguagem === '1') {
+                        alert("Você escolheu aprender C#!");
+                    } else if (linguagem === '2') {
+                        alert("Você escolheu aprender Java!");
+                    } else {
+                        alert("Opção inválida. Por favor, escolha 1 ou 2.");
+                    }
+                }
+            } else {
+                alert("Opção inválida. Por favor, escolha 1 ou 2.");
+            }
+        }
+
+        // Independente da escolha anterior, o usuário poderá escolher entre seguir se especializando na área escolhida ou se tornar Fullstack
+        let especializacao;
+        while(especializacao !== '1' && especializacao !== '2' && especializacao !== '3') {
+            especializacao = prompt("Agora você tem o poder de decidir se irá se especializar na área escolhida ou se desenvolver para se tornar Full-Stack: \n1. Front-end \n2. Back-end \n3. Full-Stack");
+
+            if(especializacao === '1') {
+                alert("Agora que você escolheu o caminho das interfaces, siga estudando e se especializando!");
+            } else if(especializacao === '2') {
+                alert("Você decidiu seguir no Back-end! Continue aprimorando suas habilidades nas linguagens e frameworks escolhidos.");
+            } else if(especializacao === '3') {
+                alert("Você optou por se tornar Full-Stack! Prepare-se para dominar tanto Front-end quanto Back-end e como eles conversam entre si.");
+            } else {
+                alert("Opção inválida. Por favor, escolha 1, 2 ou 3.");
+            }
+        }
+        
+        // Quais são as tecnologias nas quais a pessoa gostaria de se especializar ou de conhecer => “Tem mais alguma tecnologia que você gostaria de aprender ? "
+        let maisTecnologias = true;
+        while (maisTecnologias) {
+            let tecnologia = prompt("Quais as outras tecnologias você gostaria de aprender ou se especializar?");
+            if (tecnologia) {
+                alert("Ótima escolha! Aprender " + tecnologia + " será um diferencial para sua carreira.");
+            }
+            maisTecnologias = confirm("Tem mais alguma tecnologia que você gostaria de aprender?");
+        }
+
+        // Mensagem comentando algo sobre a linguagem inserida.
+        alert("Boa sorte na sua jornada de aprendizado! \nQue a força esteja com você!");
+    </script>
+</head>
+<body>
+    <h1>07 Days of Code</h1>
+    <h2>Desafio 03 - Fluxo de decisão</h2>
+</body>
+</html>

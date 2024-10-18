@@ -62,3 +62,26 @@ Em que cada `X` é uma das respostas dadas pela pessoa
 Você poderá **adicionar quantas perguntas quiser**, inclusive adicionando as respostas da pessoa na mensagem que será impressa.
 
 Para **imprimir e receber valores**, você pode tanto usar `console.log`, `prompt` e `alert`, quanto usar HTML e CSS caso já tenha conhecimento dessas duas tecnologias.
+
+## Dia 3
+#### Exercício
+Você alguma vez já jogou algum jogo onde ele te desse mais de uma escolha e, dependendo da que você escolhesse, o destino da personagem seria totalmente diferente?
+
+Vamos fazer um um exemplo com Javascript!
+
+Seu desafio de hoje é **criar os destinos possíveis de um jogo**, em que a pessoa jogador consiga escolher:
+
+1. No **início** de seus estudos, onde poderá escolher entre **seguir para área de front-end** ou **seguir para a área de back-end**
+
+2. No **meio**, onde caso esteja na área de **front-end**, ela poderá **seguir aprendendo React** ou **seguir aprendendo Vue** e, caso esteja na área de **back-end**, poderá **seguir aprendendo C#** ou **seguir aprendendo Java**
+
+3. No **fim**, onde, independente de suas escolhas anteriores, ela poderá escolher entre **seguir se especializando na área escolhida** ou **seguir se desenvolvendo para se tornar fullstack**
+
+O importante é que a pessoa que jogar possa sempre **escolher qual decisão tomar** para conseguir aprender e se desenvolver na área de programação
+
+#### Dica
+Já da pra ter uma ideia de como fazer toda essa historinha acontecer né? Principalmente lembrando como utilizamos as **estruturas condicionais em Javascript**!
+
+Caso você ainda não saiba como **imprimir e receber valores** nas páginas web com HTML e CSS, você poderá usar `console.log`, `prompt` e `alert` para desenvolver o seu jogo
+
+Lembre-se que você pode sempre **personalizar** o jogo da forma que quiser!
