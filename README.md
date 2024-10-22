@@ -85,3 +85,23 @@ Já da pra ter uma ideia de como fazer toda essa historinha acontecer né? Princ
 Caso você ainda não saiba como **imprimir e receber valores** nas páginas web com HTML e CSS, você poderá usar `console.log`, `prompt` e `alert` para desenvolver o seu jogo
 
 Lembre-se que você pode sempre **personalizar** o jogo da forma que quiser!
+
+## Dia 4
+#### Exercício
+Você já brincou de tentar adivinhar o número que seu amigo ou amiga estava pensando? Pois hoje você irá jogar esse joga contra o próprio computador!
+
+Aqui está tudo o que você precisa fazer para o desafio de hoje:
+
+Você deve criar um programinha que **já inicialize com um valor específico entre 0-10 para o número que você irá adivinhar**
+Em seguida, ele perguntará para você **qual o valor que você deseja chutar** e, caso você acerte, ele irá te **parabenizar** ou, caso erre, ele irá **te dar mais 2 tentativas**
+No fim, caso você não acerte nenhuma vez, ele irá **imprimir qual era o número inicial**
+
+#### Dica
+Pense muito bem em qual **estrutura de repetição** você irá utilizar para fazer o seu programa ser executado até o momento que as 3 tentativas acabarem ou a pessoa acertar o número
+
+Lembre-se que você pode sempre **personalizar** o seu programinha da forma que quiser!
+
+#### Extra
+Você pode até incrementar o seu programa e fazer a própria máquina escolher sozinha o número a ser adivinhado, utilizando algo chamado `Math.random()`, que você pode conferir [nesse site](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
+
+Para aprender mais sobre **estruturas de repetição**, dê uma olhada [nesse site](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Loops_and_iteration)
