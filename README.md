@@ -105,3 +105,33 @@ Lembre-se que você pode sempre **personalizar** o seu programinha da forma que 
 Você pode até incrementar o seu programa e fazer a própria máquina escolher sozinha o número a ser adivinhado, utilizando algo chamado `Math.random()`, que você pode conferir [nesse site](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
 
 Para aprender mais sobre **estruturas de repetição**, dê uma olhada [nesse site](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Loops_and_iteration)
+
+## Dia 5
+#### Exercício
+Você já foi alguma vez no supermercado e levou uma lista de compras, porém como escreveu tudo na ordem que foi lembrando, teve que buscar uma maçã na área de frutas, depois um leite na área de laticínios e depois uma pêra novamente na área de frutas e ficou nesse vai e volta pelo lugar inteiro pra completar a lista?
+
+Depois que você resolver o desafio de hoje com certeza não fará mais isso!
+
+O que você deverá fazer então:
+
+Para facilitar a sua ida ao supermercado, você irá criar um programa em Javascript, onde ele **perguntará se você deseja adicionar uma comida na lista de compras** para você responder com `sim` ou `nao`. 
+Em seguida **perguntará qual comida você deseja inserir** e você digitará o nome dela, como por exemplo `batata`.
+Em seguida, ele deverá **perguntar em qual categoria essa comida se encaixa**, com opções já pré definidas, como `laticínios`, `congelados`, `doces` e o que mais achar interessante, assim poderá separar tudo no seu devido grupo
+Por fim, caso você não queira mais adicionar nada na lista de compras e responder `nao` na primeira pergunta, ele irá **imprimir uma lista com todos os itens agrupados**, da seguinte forma:
+
+Caso você adicione na sua lista: 
+`banana`, `leite em pó`, `tomate`, `leite vegetal`, `chiclete`, `bala de ursinho`, `maçã`, `uva`, `abacate` e `leite de vaca`
+
+O programa deverá imprimir, por exemplo:
+
+`Lista de compras: banana, tomate, maçã, uva, abacate, leite em pó, leite vegetal, leite de vaca, chiclete e bala de ursinho`
+
+#### Dica
+Temos um objeto dentro da linguagem javascript que é usado justamente para criar listas de elementos, chamado array. Use e abuse dele!
+
+Lembre-se que você sempre pode **estilizar** da maneira que quiser o seu programinha, inclusive utilizando outras tecnologias para isso, como HTML e CSS. Porém isso **não é obrigatório** na nossa lista de lógica de programação com Javascript, então como já mencionei nos dias anteriores, você pode usar recursos como `console.log`, `alert` e `prompt` para desenvolver seu programa
+
+#### Extra
+Para aprender mais sobre **arrays em Javascript**, dê uma olhada [nesse site](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array)
+
+Não esqueça também de concatenar as diversas listas de categorias em uma só no final, para isso você pode dar uma lida [nesse site](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/Strings)

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 5 - Arrays e coleções</title>
+
+    <script>
+        alert("Facilitando suas idas ao mercado, crie sua lista aqui!");
+
+        let frutas = [];
+        let laticinios = [];
+        let congelados = []; 
+        let doces = []; 
+        let limpeza = [];
+
+        // qual comida
+        let adicionarItem = "sim";
+        while (adicionarItem != "não") {
+            adicionarItem = prompt("Você deseja adicionar um item na lista de compras? Responda 'sim' ou 'não'.");
+
+            if (adicionarItem === "sim") {
+                let item = prompt("Qual item você deseja adicionar?");
+                let categoria = prompt("Em qual categoria esse item se encaixa? Escolha entre: frutas, laticínios, congelados, doces, limpeza.")
+
+                if (categoria === "frutas") {
+                    frutas.push(item);
+                } else if (categoria === "laticínios") {
+                    laticinios.push(item);
+                } else if (categoria === "congelados") {
+                    congelados.push(item);
+                } else if (categoria === "doces") {
+                    doces.push(item);
+                } else if (categoria === "limpeza") {
+                    limpeza.push(item);
+                } else {
+                    alert("Essa categoria não foi pré-definida");
+                }
+                alert(`Lista de compras:\n Frutas: ${frutas}\n Laticínios: ${laticinios}\n Congelados: ${congelados}\n Doces: ${doces}\n Limpeza: ${limpeza}`);
+
+            } else if (adicionarItem != "não") {
+                alert("Resposta inválida! Tente novamente.")
+            }
+        }
+        alert("Finalizando a lista de compras.");
+    </script>
+</head>
+<body>
+    <h1>07 Days of Code</h1>
+    <h2>Desafio 5 - Arrays e coleções</h2>
+</body>
+</html>
